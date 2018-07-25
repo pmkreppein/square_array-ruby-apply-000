@@ -1,4 +1,4 @@
-def square_array(array)
+def square_array([array])
   # your code here
   newArray = []
   array.each { |i|
@@ -7,5 +7,3 @@ def square_array(array)
   }
   return newArray
 end
-
-puts(square_array([2,4,6]))
