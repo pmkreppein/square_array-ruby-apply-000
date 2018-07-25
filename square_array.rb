@@ -3,7 +3,7 @@ def square_array(array)
   newArray = []
   array.each do |i|
     i**i
-    newArray.push(i)  end |i|
+    newArray.push(i)  end 
 end
 
   return newArray
